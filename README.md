@@ -14,11 +14,9 @@ The .gitattributes file is just for compatibility with Git LFS, as the .keras mo
 
 ## Requirements
 
-To use the python files, one needs to install numpy, tensorflow, and keras onto their python environment. On some IDEs, there may be "Import could not be resolved" errors, but these can often be ignored.
+To use the python files, one needs to install numpy, tensorflow, and keras onto their python environment. 
 
-If keras is not importing properly, one fix that I found helpful was pip uninstalling both tensorflow and keras, and then reinstalling just tensorflow.
-
-To use the Raspberry Pi functionality, more libraries will be needed.
+To use the Raspberry Pi functionality, more libraries will be needed, including cv2, PIL, and picamera. Please note that the libaries/functionality may be out of date for the newest versions of Raspberry Pi.
 
 ## Output
 
